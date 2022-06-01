@@ -61,6 +61,6 @@ schools_all <- location %>%
   full_join(assessment_wide, by=c("School.Name" = "Sch.Name", 
                                                "Division.Schools" = "Division"))
 
-glimpse(filter(schools_all$School.Name == "Justice%"))
+
 
 #  4. Find Correlations between variables and Dropout
